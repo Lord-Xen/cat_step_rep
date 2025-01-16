@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def get_index():
-    pass
+    
     return render_template('index.html')
 
 @app.route('/log', methods=['GET', 'POST'])
